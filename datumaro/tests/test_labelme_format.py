@@ -108,7 +108,6 @@ class LabelMeConverterTest(TestCase):
                 SrcExtractor(), LabelMeConverter(save_images=True),
                 test_dir, target_dataset=DstExtractor())
 
-
 DUMMY_DATASET_DIR = osp.join(osp.dirname(__file__), 'assets', 'labelme_dataset')
 
 class LabelMeExtractorTest(TestCase):
